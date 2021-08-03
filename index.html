@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <ul class="nav-list">
+        <li>
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section id="welcome-section">
+      <h1>Hello i am Ignjat</h1>
+      <h4>front-end developer</h4>
+    </section>
+
+    <section id="about"></section>
+
+    <section id="projects" class="projects-section">
+      <h2>Here are some of my projects</h2>
+      <section id="project-tile">
+        <div class="projects-grid">
+          <a
+            href="https://tribute-page-nikola-tesla.vercel.app/"
+            target="_blank"
+            class="project-tile"
+          >
+            <img
+              class="project-image"
+              src="tributepagepic.png"
+              alt="tribute page picture"
+            />
+            <p class="project-title">Nikola Tesla tribute page</p>
+          </a>
+          <a
+            href="https://survey-form-kappa.vercel.app/"
+            target="_blank"
+            class="project-tile"
+          >
+            <img
+              class="project-image"
+              src="surveypagepic.png"
+              alt="tribute page picture"
+            />
+            <p class="project-title">Survey form page</p>
+          </a>
+        </div>
+      </section>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="contact-section-header">
+          <h2>Let's work together</h2>
+      </div>
+      <div class="contact-links">
+        <div class="contact-links">
+            <a href="https://facebook.com/freecodecamp" target="_blank" class="btn contact-details"><i class="fab fa-facebook-square"></i> Facebook</a>
+            <a id="profile-link" href="https://github.com/freecodecamp" target="_blank" class="btn contact-details"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://twitter.com/freecodecamp" target="_blank" class="btn contact-details"><i class="fab fa-twitter"></i> Twitter</a>
+            <a href="mailto:example@example.com" class="btn contact-details"><i class="fas fa-at"></i> Send a mail</a>
+            <a href="tel:555-555-5555" class="btn contact-details"><i class="fas fa-mobile-alt"></i> Call me</a>
+          </div>
+      </div>
+    </section>
+  </body>
+</html>
