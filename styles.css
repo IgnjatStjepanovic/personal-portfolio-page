@@ -5,7 +5,7 @@ body {
 nav {
   display: flex;
   justify-content: flex-end;
-  background: #747575;
+  background: #d1caca;
   font-size: 1rem;
   font-weight: 400;
   margin: auto;
@@ -20,7 +20,7 @@ nav {
   display: block;
   font-size: 2.2rem;
   padding: 1rem;
-  color: rgb(241, 241, 241);
+  color: rgb(0, 0, 0);
 }
 
 ul {
@@ -41,6 +41,7 @@ img {
   background-color: #000;
   background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
   margin: 0px;
+  box-sizing: inherit;
 }
 
 .projects-section {
@@ -127,7 +128,6 @@ h2 {
   margin: 0 auto 6rem auto;
   font-weight: 700;
   font-size: 3rem;
-  text-decoration-line: underline;
 }
 
 h4 {
@@ -140,5 +140,5 @@ h4 {
   font-size: 3rem;
   font-weight: 200;
   font-style: italic;
-  color: white;
+  color: rgb(165, 144, 144);
 }
