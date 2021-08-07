@@ -81,10 +81,17 @@ img {
 }
 
 .project-tile {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  justify-content: space-between;
   font-size: 1.7rem;  
   background: #eaeaea;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+}
+
+.project-tile p{
+  margin: auto;
 }
 
 .project-title{
@@ -136,7 +143,8 @@ h1 {
   text-align: center;
   font-weight: 700;
   font-size: 4em;
-  margin: auto;
+  margin: 0;
+
 }
 
 h2 {
@@ -158,7 +166,8 @@ h4 {
   font-size: 3rem;
   font-weight: 200;
   font-style: italic;
-  color: #eaeaea;  
+  color: #b1acac;
+  margin: 0;  
 }
 
 @media  {
