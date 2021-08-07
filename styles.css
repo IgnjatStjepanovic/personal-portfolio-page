@@ -5,7 +5,7 @@ body {
 nav {
   display: flex;
   justify-content: flex-end;
-  background: #d1caca;
+  background: #eaeaea;
   font-size: 1rem;
   font-weight: 400;
   margin: auto;
@@ -19,6 +19,7 @@ nav {
 .nav-list a {
   display: block;
   font-size: 2.2rem;
+  font-weight: bold;
   padding: 1rem;
   color: rgb(0, 0, 0);
 }
@@ -45,10 +46,16 @@ img {
 }
 
 .projects-section {
-  background-color: #d1caca;
+  background-color: #eaeaea;
   text-align: center;
-  padding: 10rem 2rem;
-  
+  padding: 4rem 2rem;  
+}
+
+.projects-section h1{
+  color: #201c1c;
+  text-align: center;
+  padding-bottom: 3rem;
+  text-transform: lowercase;  
 }
 
 .project {
@@ -59,12 +66,12 @@ img {
 
 .projects-grid {
   display: grid;
+  justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-gap: 4rem;
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  margin-bottom: 6rem;
 }
 
 .project-image {
@@ -76,8 +83,15 @@ img {
 .project-tile {
   text-align: center;
   font-size: 1.7rem;  
-  background: #8d8c8f;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: #eaeaea;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+}
+
+.project-title{
+  text-transform: lowercase ;
+  align-self: center;
+  font-weight: bold;
+  color: rgb(65, 63, 63);  
 }
 
 a {
@@ -96,6 +110,10 @@ a {
   padding: 0 2rem;
   background: rgb(0, 0, 0);
   background-image: linear-gradient(160deg, #727475 0%, #3c3a3d 100%);
+}
+
+.contact-section-header h2 {
+  margin: auto;
 }
 
 .contact-links {
@@ -132,7 +150,7 @@ h2 {
 
 h4 {
   text-align: center;
-  color: white;
+  color:#eaeaea;
   margin: auto;
 }
 
@@ -140,5 +158,13 @@ h4 {
   font-size: 3rem;
   font-weight: 200;
   font-style: italic;
-  color: rgb(165, 144, 144);
+  color: #eaeaea;  
+}
+
+@media  {
+  .projects-section .projects-grid .project-tile {
+    max-width: 400px;
+    max-height: 400px;
+    margin: 0 30px 0 30px;    
+  }
 }
