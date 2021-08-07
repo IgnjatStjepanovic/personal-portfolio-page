@@ -169,11 +169,3 @@ h4 {
   color: #b1acac;
   margin: 0;  
 }
-
-@media  {
-  .projects-section .projects-grid .project-tile {
-    max-width: 400px;
-    max-height: 400px;
-    margin: 0 30px 0 30px;    
-  }
-}
